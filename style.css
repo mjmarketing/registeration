@@ -1,0 +1,136 @@
+body{
+    background-color: #fdbfe2;
+}
+
+.logotop{
+    position: relative;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.msg{
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+textarea[name="message"] {
+    resize: none
+}
+
+#e-mail {
+    height: 45px
+}
+
+#message {
+    height: 120px
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #E0E0E0;
+    border: #616161;
+    color: #000000;
+    font-size: 15px;
+    padding: 15px auto 15px auto !important;
+    height: 50px !important
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #212121;
+    color: #ffffff
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px
+}
+
+.thanks {
+    color: #000000 !important;
+    text-align: center
+}
+
+.thanks:hover {
+    color: #00000 !important;
+    text-decoration: underline
+}
+
+.conditions {
+    font-size: 12px;
+    color: #BDBDBD;
+    text-align: center
+}
+
+.btn{
+    color: blue;
+}
+.contact-head{
+  text-align: center;
+  padding-top: 50px;
+}
+.form-box{
+  padding-bottom: 20px;
+  padding-left: 30%;
+    padding-right: 30%;
+
+}
+.map{
+  inline-size: 2cm;
+}
+
+#myBtn {
+  display: none;
+  height: 1cm;
+  width: 1cm;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  padding-top: 1.5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:white;
+  color: black;
+}
+
+.gapb{
+    padding-top: 30px;
+  }
+
+.fus{
+    padding-right: 40%;
+    padding-left: 45%;
+}
+.socialmedia{
+    padding-right: 45%;
+    padding-left: 45%;
+}
